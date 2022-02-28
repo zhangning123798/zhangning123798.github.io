@@ -1,885 +1,506 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.4.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta charset="utf-8">
+  
 
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta name="description" content="股票 龙头 牛股">
+  
+  <title>别过火的博客</title>
+  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="擅长前后端">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/page/4/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="股票 龙头 牛股">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="zhangning">
+<meta property="og:title" content="别过火的博客">
+<meta property="og:url" content="https://zhangning123798.github.io/page/4/index.html">
+<meta property="og:site_name" content="别过火的博客">
+<meta property="og:description" content="擅长前后端">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="bieguohuo">
+<meta property="article:tag" content="前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/page/4/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-CN'
-  };
-</script>
-
-  <title>Hexo</title>
   
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">点滴成长</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-      
+    <link rel="alternate" href="/atom.xml" title="别过火的博客" type="application/atom+xml">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/094435b2-1115-4d92-82d4-7988ece2579f/">
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
+<meta name="generator" content="Hexo 5.4.0"></head>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/094435b2-1115-4d92-82d4-7988ece2579f/" class="post-title-link" itemprop="url">叶落紫枫</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:02:59" itemprop="dateCreated datePublished" datetime="2021-07-30T16:02:59+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>男苦口婆心的道：亲爱的，不会做饭是女人的缺陷，你一定要学会啊！女人皱皱眉，掏出男人的钱包，拿出1000元。女：喂，徽菜馆吗？请送红烧鳜鱼、火腿炖甲鱼、牛奶河豚、地三鲜到平等家苑。。。半小时后，女人看看一桌美味，对男人挑挑眉：只要男人有钱，女人就没有缺陷。</p>
-
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">别过火的博客</a>
+      </h1>
       
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/8ad29575-5b19-461a-a655-80133f14f498/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/8ad29575-5b19-461a-a655-80133f14f498/" class="post-title-link" itemprop="url">狐小乔</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:02:58" itemprop="dateCreated datePublished" datetime="2021-07-30T16:02:58+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>小学时，因为贪玩，成绩非常差，一直稳坐全班倒数第二那把交椅。期末考试，没成想最后一名的学渣竟然超过了我，我成了倒数第一！老师分析试卷时，我发现了他的秘密武器——橡皮。考英语时，他在橡皮四个面上分别写上ABCD（两头的两个面没写），然后随机扔，最后竟然考了63分！而这次英语考试非常难，全班只有七个同学及格！因为英语成绩，他超过了倒数第二的我，让我郁闷了一个暑假。我暗暗下定决心，开学后一定要找一个有橡皮的做同桌！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/e228ef31-cf83-41f9-bdee-e9616012bb9d/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/e228ef31-cf83-41f9-bdee-e9616012bb9d/" class="post-title-link" itemprop="url">知——秋</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:02:57" itemprop="dateCreated datePublished" datetime="2021-07-30T16:02:57+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>未来最惨的是如果我们孤独终老，那时候都会购买一个人工智能陪伴自己，然而如果仍然贫穷，可能和他们聊天前还要听一段广告</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/8529dfdc-5f4c-4283-94bc-d82893690ad3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/8529dfdc-5f4c-4283-94bc-d82893690ad3/" class="post-title-link" itemprop="url">天然呆。oO</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:02:56" itemprop="dateCreated datePublished" datetime="2021-07-30T16:02:56+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>小时候看电视上的人说话跟我们不一样，话说完了嘴还在动(其实是画面比声音慢了一拍，那时候不懂），就觉得好神奇呀！原来城里人都是这样说话的！我也要这样！后来每次说完话，嘴还接着动几下，最后被我妈一巴掌给治好了。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/15bb78b1-6ead-4c31-84df-4ed4ad3f35b3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/15bb78b1-6ead-4c31-84df-4ed4ad3f35b3/" class="post-title-link" itemprop="url">聊天不撩妹子</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:02:55" itemprop="dateCreated datePublished" datetime="2021-07-30T16:02:55+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>吃完晚饭和老婆躺在沙发上玩手机。突然老婆拿着手机放在我面前，然后择下项链，指着某x手上的广 告对我说：越看越像你给我买的这款项链？到负才三十五！我连忙答道：怎么可能，这项链专买店买的三千五呢证书发票不是让你看了吗？老婆：不对吧这项链怎么变颜色了？我急道：不可能的，商家保证的，不变色不吸磁铁的！！！！！！！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/9114a270-b5fc-484a-b952-b1436b2de460/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/9114a270-b5fc-484a-b952-b1436b2de460/" class="post-title-link" itemprop="url">『空欢喜』</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:01:03" itemprop="dateCreated datePublished" datetime="2021-07-30T16:01:03+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>这几天公司不加班，同事约好一起吃晚饭，吃饭过后有个爱慕我已久男同事送我回家。走到半路他说累了，我们在草坪上坐一下吧？我说:草坪上有蚂蚁，有虫子，我不想坐上面，但是他还是拉着我要去草坪上坐会儿。我只好免为其难的座在他身上了。。。​</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/aebd2d98-d9f2-4740-8b88-d360e764ee8a/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/aebd2d98-d9f2-4740-8b88-d360e764ee8a/" class="post-title-link" itemprop="url">奶爸笔记本</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:01:02" itemprop="dateCreated datePublished" datetime="2021-07-30T16:01:02+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>17号。20:41。在河堤上散步。刚刚听到的。女孩发现我在笑，追打着她男友跑远了。她男友:求疫情快点结束吧，每天戴这破口罩，亲个嘴都不方便女孩:戴卫生巾也没耽误过我尿尿啊</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/efe7cd21-41dc-4236-ae65-8a2f517448a6/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/efe7cd21-41dc-4236-ae65-8a2f517448a6/" class="post-title-link" itemprop="url">聊天不撩妹子</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:01:01" itemprop="dateCreated datePublished" datetime="2021-07-30T16:01:01+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>吃完晚饭和老婆躺在沙发上玩手机。突然老婆拿着手机放在我面前，然后择下项链，指着某x手上的广 告对我说：越看越像你给我买的这款项链？到负才三十五！我连忙答道：怎么可能，这项链专买店买的三千五呢证书发票不是让你看了吗？老婆：不对吧这项链怎么变颜色了？我急道：不可能的，商家保证的，不变色不吸磁铁的！！！！！！！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/6ee5e88b-3e15-453f-bd5c-14320e30ad5c/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/6ee5e88b-3e15-453f-bd5c-14320e30ad5c/" class="post-title-link" itemprop="url">王八与蛋</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:01:00" itemprop="dateCreated datePublished" datetime="2021-07-30T16:01:00+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>外地姑姑来我家探亲，把断了两天的粽子给…续…上…了…</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/30/473d8fe3-fa46-4f79-9d7a-10fd8a25a796/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/30/473d8fe3-fa46-4f79-9d7a-10fd8a25a796/" class="post-title-link" itemprop="url">上凹下凸</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-30 16:00:59" itemprop="dateCreated datePublished" datetime="2021-07-30T16:00:59+08:00">2021-07-30</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>为了和女友开玩笑，我戴着面具准备吓唬她……在她看电视的时候我突然跳到她面前阴沉沉的说：我不是人……女友面不改色的说：你终于说了句实话！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/3/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><a class="extend next" rel="next" href="/page/5/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">zhangning</p>
-  <div class="site-description" itemprop="description">股票 龙头 牛股</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-          <span class="site-state-item-count">119</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://zhangning123798.github.io"></form>
       </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">zhangning</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
-
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-5a72f384-0915-42fd-b6b4-549f21005391" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/5a72f384-0915-42fd-b6b4-549f21005391/" class="article-date">
+  <time datetime="2021-07-30T08:03:05.539Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
         
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/5a72f384-0915-42fd-b6b4-549f21005391/">耍流氓是很優雅滴</a>
+    </h1>
+  
 
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>办公室新招来一帅哥，几天相处下来，发现自己喜欢上了他。毕竟俺也是女孩，不知怎么优雅的示爱，几经周折后，我对他说：“听说第一胎生男孩是母亲智商高，生女孩是父亲智商高，你敢和我合作一次，比一比智商吗？”于是……</p>
 
-
-
-
-
-
-
-      </div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/5a72f384-0915-42fd-b6b4-549f21005391/" data-id="cl06jhw7r0013ror5e7qb22ta" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
     </footer>
   </div>
-
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
+</article>
 
 
   
+    <article id="post-0e319dc7-5bda-4b84-8b9a-fa158bc38298" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/0e319dc7-5bda-4b84-8b9a-fa158bc38298/" class="article-date">
+  <time datetime="2021-07-30T08:03:04.572Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/0e319dc7-5bda-4b84-8b9a-fa158bc38298/">自己的蛋自己疼</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>端午节那天，本来是休息，想着还有一个客户，上个月的账目还没对完，就打电话过去问他放假了没？那边接的电话都没放假。于是到了那边对完账目付完款。我说你们要钱不要命啊，端午节都不放假。妹子拿杯子的手都颤抖了，生气的说，还不是因为你，你要不来我早就放假了</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/0e319dc7-5bda-4b84-8b9a-fa158bc38298/" data-id="cl06jhw7c000aror5bsmh4qp2" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-e71cb29e-28fb-401f-a0c1-53be0b92031c" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/e71cb29e-28fb-401f-a0c1-53be0b92031c/" class="article-date">
+  <time datetime="2021-07-30T08:03:03.520Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/e71cb29e-28fb-401f-a0c1-53be0b92031c/">点赞的战斗猪</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>公司新来了个小伙子，刚熟悉工作半小时就说电脑坏了，他说有认识的人可以免费修，好家伙，主管把之前的两台主机也让他带上，还给了他50车费，结果这小伙子再也没有回来……</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/e71cb29e-28fb-401f-a0c1-53be0b92031c/" data-id="cl06jhw8e002xror55k59dt5j" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-7158a260-b122-4656-9f19-de14ea6dc13e" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/7158a260-b122-4656-9f19-de14ea6dc13e/" class="article-date">
+  <time datetime="2021-07-30T08:03:02.530Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/7158a260-b122-4656-9f19-de14ea6dc13e/">歌歌哒f</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>公司开发新产品，由于遇到一些技术问题没能解决，于是部门召开会议，经理在台上讲着，坐我对面的一个技术员工突然眉头紧锁又舒展开来一副恍然大悟的样子……而这一举动也被经理看见了，当经理看向这位员工时其他同事也跟着看向他，这时只见他侧了一下身子然后放了一个屁……</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/7158a260-b122-4656-9f19-de14ea6dc13e/" data-id="cl06jhw7v001gror5anst43jj" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-baca4c57-d185-49ab-8ded-903f99754e55" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/baca4c57-d185-49ab-8ded-903f99754e55/" class="article-date">
+  <time datetime="2021-07-30T08:03:01.328Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/baca4c57-d185-49ab-8ded-903f99754e55/">老巫婆～～</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>闺蜜是她前男友的第三任女友。他第一任女朋友是卖烧饼的，分手以后他再也不吃烧饼了。他第二任女朋友是开网吧的，分手以后他再也不去网吧了！那我闺蜜是开服装店的，他俩分手以后………</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/baca4c57-d185-49ab-8ded-903f99754e55/" data-id="cl06jhw88002fror504dz1k8t" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-7f534ed5-d0a3-4f1e-b48f-dffe91ba40a7" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/7f534ed5-d0a3-4f1e-b48f-dffe91ba40a7/" class="article-date">
+  <time datetime="2021-07-30T08:03:00.305Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/7f534ed5-d0a3-4f1e-b48f-dffe91ba40a7/">上凹下凸</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>为了和女友开玩笑，我戴着面具准备吓唬她……在她看电视的时候我突然跳到她面前阴沉沉的说：我不是人……女友面不改色的说：你终于说了句实话！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/7f534ed5-d0a3-4f1e-b48f-dffe91ba40a7/" data-id="cl06jhw7y001nror557pyaf4k" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-094435b2-1115-4d92-82d4-7988ece2579f" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/094435b2-1115-4d92-82d4-7988ece2579f/" class="article-date">
+  <time datetime="2021-07-30T08:02:59.205Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/094435b2-1115-4d92-82d4-7988ece2579f/">叶落紫枫</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>男苦口婆心的道：亲爱的，不会做饭是女人的缺陷，你一定要学会啊！女人皱皱眉，掏出男人的钱包，拿出1000元。女：喂，徽菜馆吗？请送红烧鳜鱼、火腿炖甲鱼、牛奶河豚、地三鲜到平等家苑。。。半小时后，女人看看一桌美味，对男人挑挑眉：只要男人有钱，女人就没有缺陷。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/094435b2-1115-4d92-82d4-7988ece2579f/" data-id="cl06jhw7a0006ror52wea785j" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-8ad29575-5b19-461a-a655-80133f14f498" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/8ad29575-5b19-461a-a655-80133f14f498/" class="article-date">
+  <time datetime="2021-07-30T08:02:58.201Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/8ad29575-5b19-461a-a655-80133f14f498/">狐小乔</a>
+    </h1>
+  
 
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>小学时，因为贪玩，成绩非常差，一直稳坐全班倒数第二那把交椅。期末考试，没成想最后一名的学渣竟然超过了我，我成了倒数第一！老师分析试卷时，我发现了他的秘密武器——橡皮。考英语时，他在橡皮四个面上分别写上ABCD（两头的两个面没写），然后随机扔，最后竟然考了63分！而这次英语考试非常难，全班只有七个同学及格！因为英语成绩，他超过了倒数第二的我，让我郁闷了一个暑假。我暗暗下定决心，开学后一定要找一个有橡皮的做同桌！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/8ad29575-5b19-461a-a655-80133f14f498/" data-id="cl06jhw82001zror55oeddd30" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
   
 
-  
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/3/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/5/">Next &amp;raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/07/30/8845b974-133d-4888-8e87-04d9dcc58a1d/">中国加油！！</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/6af1f1b9-7301-441c-893d-703e4a013e42/">知——秋</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/99bf4577-d082-42e4-a687-d21445de9e1b/">耍流氓是很優雅滴</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/fa41827c-898a-4e50-8272-9d347141ee8e/">晓来雾沾衣</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/d2e5b4da-9a66-4295-860a-1b5dddd206af/">胖香</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+	  <a target="_blank" href="https://www.amazon.com/promocode/A3SXVASIA0QYEX?ref_=assoc_tag_ph_1524239169854&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=bieguohuo-20&linkId=db3ccf30aeffc9daec6bb70c341343ed">Save 20.0% on select products from Meiloi with promo code 209OLXY2, through 2/28 while supplies last.</a>
+	  <a target="_blank" href="https://www.amazon.com/promocode/ADSF21AT79BW0?ref_=assoc_tag_ph_1524239169806&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=bieguohuo-20&linkId=cc116eaab370bf2cdb96807f84d150af">Save 50.0% on select products from Modern Element Products with promo code 50HQALIU, through 3/4 while supplies last.</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+    <div id="footer-info" class="inner">
+      &copy; 2022 bieguohuo<br>
+      Powered by <!--<a href="http://hexo.io/" target="_blank">Hexo</a>!-->
+	  <a target="_blank" href="https://www.amazon.com/b?_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3b9d5ea022ea9e54ce70c4e7b9d65e93&camp=1789&creative=9325&node=37">100 music</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>

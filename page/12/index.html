@@ -1,915 +1,506 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.4.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta charset="utf-8">
+  
 
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta name="description" content="股票 龙头 牛股">
+  
+  <title>别过火的博客</title>
+  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="擅长前后端">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/page/12/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="股票 龙头 牛股">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="zhangning">
+<meta property="og:title" content="别过火的博客">
+<meta property="og:url" content="https://zhangning123798.github.io/page/12/index.html">
+<meta property="og:site_name" content="别过火的博客">
+<meta property="og:description" content="擅长前后端">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="bieguohuo">
+<meta property="article:tag" content="前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/page/12/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-CN'
-  };
-</script>
-
-  <title>Hexo</title>
   
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">点滴成长</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-      
+    <link rel="alternate" href="/atom.xml" title="别过火的博客" type="application/atom+xml">
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/88e83314-cf63-4bfb-972b-5d262b270366/">
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
+<meta name="generator" content="Hexo 5.4.0"></head>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/88e83314-cf63-4bfb-972b-5d262b270366/" class="post-title-link" itemprop="url">广西嘉义资产评估有限公司变更备案公告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 15:47:02" itemprop="dateCreated datePublished" datetime="2021-07-29T15:47:02+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-06-22<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备192号</p><p style="text-indent: 2em;">广西嘉义资产评估有限公司变更事项备案及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。变更备案的相关信息如下：</p><p style="text-indent: 2em;">资产评估机构名称变更为广西嘉诚达房地产土地资产评估有限公司。</p><p style="text-indent: 2em;">相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月18日</p></p>
-
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">别过火的博客</a>
+      </h1>
       
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/0cb113a8-66ab-4724-8414-667dc7d995c8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/0cb113a8-66ab-4724-8414-667dc7d995c8/" class="post-title-link" itemprop="url">广西正华房地产土地评估有限公司备案公告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 15:47:00" itemprop="dateCreated datePublished" datetime="2021-07-29T15:47:00+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-06-28<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备196号</p><p style="text-indent: 2em;">广西正华房地产土地评估有限公司报来的《资产评估机构备案表》及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。</p><p style="text-indent: 2em;">一、资产评估机构名称为广西正华房地产土地评估有限公司，组织形式为有限责任公司。</p><p style="text-indent: 2em;">二、执行合伙事务的合伙人（法定代表人）负责人为朱建成。</p><p style="text-indent: 2em;">三、资产评估机构的合伙人或者股东的基本情况，申报的资产评估专业人员基本情况等备案相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月25日</p></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/8df2c636-3c9e-4bc1-a6c9-6bc64c7dedd6/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/8df2c636-3c9e-4bc1-a6c9-6bc64c7dedd6/" class="post-title-link" itemprop="url">广西中胜房地产资产评估咨询有限责任公司备案公告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 15:46:59" itemprop="dateCreated datePublished" datetime="2021-07-29T15:46:59+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-06-28<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备194号</p><p style="text-indent: 2em;">广西中胜房地产资产评估咨询有限责任公司报来的《资产评估机构备案表》及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。</p><p style="text-indent: 2em;">一、资产评估机构名称为广西中胜房地产资产评估咨询有限责任公司，组织形式为公司制。</p><p style="text-indent: 2em;">二、执行合伙事务的合伙人（法定代表人）为蒋常青。</p><p style="text-indent: 2em;">三、资产评估机构的合伙人或者股东的基本情况，申报的资产评估专业人员基本情况等备案相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月25日</p></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/2fae331f-8db6-46a9-b021-b81cde62ab62/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/2fae331f-8db6-46a9-b021-b81cde62ab62/" class="post-title-link" itemprop="url">广西卓达房地产土地资产评估有限公司变更备案公告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 15:46:58" itemprop="dateCreated datePublished" datetime="2021-07-29T15:46:58+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-06-28<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备193号</p><p style="text-indent: 2em;">广西卓达房地产土地资产评估有限公司变更事项备案及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。变更备案的相关信息如下：</p><p style="text-indent: 2em;">合伙人（股东）变更为：耿宝坤、杨曙光、付伟。</p><p style="text-indent: 2em;">相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月25日</p></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/d2231378-825e-49e6-a254-bee9ab820c6e/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/d2231378-825e-49e6-a254-bee9ab820c6e/" class="post-title-link" itemprop="url">江苏金土地房地产评估测绘咨询有限公司广西分公司备案公告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 15:46:56" itemprop="dateCreated datePublished" datetime="2021-07-29T15:46:56+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-06-28<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备195号</p><p style="text-indent: 2em;">江苏金土地房地产评估测绘咨询有限公司广西分公司报来的《资产评估机构备案表》及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。</p><p style="text-indent: 2em;">一、资产评估机构名称为江苏金土地房地产评估测绘咨询有限公司广西分公司。</p><p style="text-indent: 2em;">二、分支机构负责人为唐文彬。</p><p style="text-indent: 2em;">三、资产评估机构分支机构的基本情况、申报的资产评估专业人员基本情况等备案相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月25日</p></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/hello-world%20-%20%E5%89%AF%E6%9C%AC/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/hello-world%20-%20%E5%89%AF%E6%9C%AC/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 15:10:28" itemprop="dateCreated datePublished" datetime="2021-07-29T15:10:28+08:00">2021-07-29</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：1985-10-26 16:15:00" itemprop="dateModified" datetime="1985-10-26T16:15:00+08:00">1985-10-26</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/feb3baf3-a9d6-4642-9b6f-1649634e4673/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/feb3baf3-a9d6-4642-9b6f-1649634e4673/" class="post-title-link" itemprop="url">广西中胜房地产资产评估咨询有限责任公司备案公告</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-07-29 15:09:46 / 修改时间：15:43:54" itemprop="dateCreated datePublished" datetime="2021-07-29T15:09:46+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-06-28<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备194号</p><p style="text-indent: 2em;">广西中胜房地产资产评估咨询有限责任公司报来的《资产评估机构备案表》及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。</p><p style="text-indent: 2em;">一、资产评估机构名称为广西中胜房地产资产评估咨询有限责任公司，组织形式为公司制。</p><p style="text-indent: 2em;">二、执行合伙事务的合伙人（法定代表人）为蒋常青。</p><p style="text-indent: 2em;">三、资产评估机构的合伙人或者股东的基本情况，申报的资产评估专业人员基本情况等备案相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月25日</p></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/%E9%BE%99%E5%A4%B4%E8%82%A1%E7%A5%A8/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/%E9%BE%99%E5%A4%B4%E8%82%A1%E7%A5%A8/" class="post-title-link" itemprop="url">龙头股票</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2021-07-29 10:47:55 / 修改时间：15:42:25" itemprop="dateCreated datePublished" datetime="2021-07-29T10:47:55+08:00">2021-07-29</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>date: 2021-07-29 10:47:55<br>tags:<br>A股细分行业龙头股完整名单一览表<br>1.000002万科A 国内房地产行业龙头企业</p>
-<p>2.000063中兴通讯 中国通信企业全球化的代表</p>
-<p>3.000333美的集团 国内家电行业龙头企业</p>
-<p>4.000538云南白药 国宝神药”国家绝密配方国家一类重要中药</p>
-<p>5.000651格力电器 国内空调行业领跑者龙头企业</p>
-<p>6.000725京东方 A 国内显示器面板龙头</p>
-<p>7.000823超声电子 汽车电字PCB龙头</p>
-<p>8.000895双汇发展 肉制品行业的绝对龙头</p>
-<p>9.002001新和成 国内最大维生素A和维生素E生产商</p>
-<p>10.002003伟星股份 世界最大的纽扣生产企业之一（额，他们公司的主营业务就不要看了）</p>
-<p>11.002004华邦制药 国内皮肤病领域龙头企业</p>
-<p>12.002007华兰生物 国内血液制品行业龙头企业</p>
-<p>13.002008大族激光 亚洲最大激光加工设备生产商</p>
-<p>14.002010传化股份 国内纺织印染助剂龙头企业</p>
-<p>15.002022科华生物 国内体外临床诊断行业龙头企业</p>
-<p>16.002024苏宁云商 国内电器销售连锁行业龙头企业</p>
-<p>17.002027分众传媒 新媒体营销龙头公司</p>
-<p>18.002028思源电气 国内最大电力保护设备消弧线圈生产商</p>
-<p>19.002030达安基因 国内核酸诊断试剂领域领先者</p>
-<p>20.002031巨轮股份 国内汽车子午线轮胎活络模具龙头企业</p>
-<p>21.002036宜科科技 国内最大中高档服装用衬生产商</p>
-<p>22.002041登海种业 国内玉米种子繁育推广一体化龙头企业（多年以来产品单一，公司高管被拘留，主营业务利润不高，前期一直靠巨额理财维持生存）</p>
-<p>23.002044美年健康 国内专业体检领域龙头（营收亮眼是由于频繁外延并购，商誉占比过高）</p>
-<p>24.002045广州国光 国内音响行业龙头企业</p>
-<p>25.002046轴研科技 国内航天特种轴承行业龙头企业</p>
-<p>26.002048宁波华翔 国内汽车内饰件龙头企业</p>
-<p>27.002056横店东磁 全球最大的磁体生产企业之一</p>
-<p>28.002063远光软件 国内电力财务软件龙头企业</p>
-<p>29.002071江苏宏宝 国内工具五金行业龙头企业</p>
-<p>30.002073软控股份 国内轮胎 橡胶 行业软件龙头企业</p>
-<p>31.002080中材科技 国内特种纤维复合材料行业龙头企业</p>
-<p>32.002090金智科技 国内电气自动化设备行业龙头企业</p>
-<p>33.002091江苏国泰 国内锂离子电池电解液行业龙头企业</p>
-<p>34.002094青岛金王 国内最大蜡烛制造商（毛利率逐渐下滑，大股东全部质押，小心点吧，他们家虽然叫金王，但是你懂的）</p>
-<p>35.002098浔兴股份 国内拉链行业龙头企业</p>
-<p>36.002101广东鸿图 国内压铸行业龙头企业</p>
-<p>37.002103广博股份 国内纸制品文具行业龙头企业（印象中这家公司商誉也比较高）</p>
-<p>38.002104恒宝股份 国内智能卡行业龙头企业</p>
-<p>39.002105信隆实业 国内自行车零配件龙头企业（为OFO默哀三秒）</p>
-<p>40.002106莱宝高科 国内彩色滤光片行业龙头企业</p>
-<p>41.002111威海广泰 国内航空地面设备行业龙头企业</p>
-<p>42.002117东港股份 国内规模最大商业票据印刷企业</p>
-<p>43.002119康强电子 国内最大塑封引线框架生产基地</p>
-<p>44.002120新海股份 世界第4大塑料打火机制造商</p>
-<p>45.002121科陆电子 国内用电采集系统领域龙头企业</p>
-<p>46.002123荣信股份 国内最**功率电力电子装备生产商</p>
-<p>47.002125湘潭电化 国内最大电解二氧化锰生产商</p>
-<p>48.002126银轮股份 国内最大机油冷却器生产商</p>
-<p>49.002130沃尔核材 国内热缩材料行业龙头企业</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/29/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhangning">
-      <meta itemprop="description" content="股票 龙头 牛股">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/29/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-29 10:18:49" itemprop="dateCreated datePublished" datetime="2021-07-29T10:18:49+08:00">2021-07-29</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：1985-10-26 16:15:00" itemprop="dateModified" datetime="1985-10-26T16:15:00+08:00">1985-10-26</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/11/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><span class="page-number current">12</span>
-  </nav>
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">zhangning</p>
-  <div class="site-description" itemprop="description">股票 龙头 牛股</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-          <span class="site-state-item-count">119</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://zhangning123798.github.io"></form>
       </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">zhangning</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
-
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-8f433560-0da6-4b02-b2b4-cdebdb5a27f5" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/8f433560-0da6-4b02-b2b4-cdebdb5a27f5/" class="article-date">
+  <time datetime="2021-07-30T02:23:21.766Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
         
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/8f433560-0da6-4b02-b2b4-cdebdb5a27f5/">证监会核发中国电信IPO批文</a>
+    </h1>
+  
 
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-07-30<br>tags: </p>
 
-
-
-
-
-
-
-      </div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/8f433560-0da6-4b02-b2b4-cdebdb5a27f5/" data-id="cl06jhw830022ror56yef67go" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
     </footer>
   </div>
-
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
+</article>
 
 
   
+    <article id="post-1912fb4a-6b48-46e2-9052-dec320dea661" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/1912fb4a-6b48-46e2-9052-dec320dea661/" class="article-date">
+  <time datetime="2021-07-30T02:23:20.878Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/1912fb4a-6b48-46e2-9052-dec320dea661/">人民币汇率韧性依旧全球三成央行加仓中国意愿强烈</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-07-30<br>tags: </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/1912fb4a-6b48-46e2-9052-dec320dea661/" data-id="cl06jhw7e000eror542dc8yv8" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-7d241eff-4da6-4ae4-bdcd-5c45a3050005" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/30/7d241eff-4da6-4ae4-bdcd-5c45a3050005/" class="article-date">
+  <time datetime="2021-07-30T02:23:19.880Z" itemprop="datePublished">2021-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/30/7d241eff-4da6-4ae4-bdcd-5c45a3050005/">【即时解盘】三大指数低开沪指失守3400点储能板块领涨</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-07-30<br>tags:<br>          光刻胶板块持续拉升，截至发稿，南大光电涨超15%，容大感光、蓝英装备、雅克科技跟涨。消息面上，近日南大光电发布公告称，公司控股子公司宁波南大光电拟通过增资扩股方式，引入战略投资者国家集成电路投资基金二…<br>          [详细]</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/30/7d241eff-4da6-4ae4-bdcd-5c45a3050005/" data-id="cl06jhw7x001lror5amlz8jr4" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-2e7ebfc2-894b-4dd4-a48e-3785343b3042" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/29/2e7ebfc2-894b-4dd4-a48e-3785343b3042/" class="article-date">
+  <time datetime="2021-07-29T07:54:28.817Z" itemprop="datePublished">2021-07-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/29/2e7ebfc2-894b-4dd4-a48e-3785343b3042/">广西壮族自治区财政厅关于征集参与全流程电子化政府采购代理机构的通知</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-06-02<br>tags: <p style="text-indent: 2em; text-align: center;">桂财采〔2021〕29号</p><p style="text-indent: 0em;">各市、县（市、区）财政局，各政府采购代理机构：</p><p style="text-indent: 2em;">为贯彻落实《国务院关于积极推进“互联网+”行动的指导意见》（国发〔2015〕40号）以及深化政府采购制度改革、优化政府采购营商环境的相关工作要求，自治区将在年内全面推广政府采购在线开评标改革，全面实现政府采购全流程电子化，进一步提高我区政府采购规范化、透明化程度，提升政府采购效率和效益。为保障政府采购全流程电子化工作顺利开展，决定征集参与全流程电子化政府采购的政府采购代理机构。现就有关事项通知如下：</p><p style="text-indent: 2em;">一、 征集工作内容</p><p style="text-indent: 2em;">征集社会代理机构承接政府采购全流程电子标项目。被征集的政府采购代理机构，承接非进场交易（进入公共资源交易中心开标）和公共资源交易中心无法按要求时间安排开标场地的自治区各级政府采购全流程电子标项目（以下简称电子标）。</p><p style="text-indent: 2em;">二、 服务对象</p><p style="text-indent: 2em;">广西壮族自治区各级预算单位。</p><p style="text-indent: 2em;">三、 参与征集条件</p><p style="text-indent: 2em;">凡是满足以下条件的政府采购代理机构，可随时申请：</p><p style="text-indent: 2em;">（一）已在中国政府采购网和广西政府采购网登记备案。</p><p style="text-indent: 2em;">（二）开评标场所具备全流程电子化相关的软硬件设备。一是开评标具备运用电子签名、电子签章、视频会议、视频监控等技术手段；二是具备对开评标全过程涉及的视频、声音信息实时监控与数据存储；三是可实现可视化远程开评标；四是开评标现场监控视频接入政采云电子化交易平台监控系统，供监管部门实时查看、监管（详见附件）。</p><p style="text-indent: 2em;">四、 申请程序</p><p style="text-indent: 2em;">（一）代理机构若有意向承接电子标，则需根据上述场地要求配置开评标室，与电子化交易平台形成对接，实现项目电子标的可视化监管。</p><p style="text-indent: 2em;">（二）有意向完成场地可视化配置的代理机构，可发邮件至cgc@ czt.gxzf.gov.cn报名，邮件内容包含代理机构全称、项目联系人、联系人方式、需配置的开评标室数量、开评标场地位置等具体内容。</p><p style="text-indent: 2em;">（三）对于报名参与征集、符合软硬件配置且已完成对接的代理机构，系统将对其开评标室自动打上“可视化”标签，便于承接采购人的电子标委托。</p><p style="text-indent: 2em;">五、 申请时限</p><p style="text-indent: 2em;">具备条件的代理机构，可自本通知自发布之日起随时报名申请。                   </p><p style="text-indent: 2em;">附件：政府采购全流程电子化采购项目代理机构软硬件配置<span style="text-indent: 0em;">推荐清单</span></p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年5月31日</p></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/29/2e7ebfc2-894b-4dd4-a48e-3785343b3042/" data-id="cl06jhw7l000pror5bl90gnkw" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-6c8b0e20-8887-40f0-999e-63cd09b55a2f" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/29/6c8b0e20-8887-40f0-999e-63cd09b55a2f/" class="article-date">
+  <time datetime="2021-07-29T07:54:27.912Z" itemprop="datePublished">2021-07-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/29/6c8b0e20-8887-40f0-999e-63cd09b55a2f/">广西壮族自治区财政厅　广西壮族自治区海洋局关于同意钦州市钦州港新城区路网工程（三期）项目免缴海域使用金的批复</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-06-08<br>tags: <p style="text-indent: 2em; text-align: center;">桂财综〔2021〕24号</p><p style="text-indent: 0em;">广西钦州临海工业投资集团有限公司：</p><p style="text-indent: 2em;">来文《关于钦州市钦州港新城区路网工程（三期）项目用海免缴海域使用金的申请》收悉。自治区海洋局按规定程序对该项目免缴应缴国库的海域使用金进行初审并出具了意见。经研究，现根据国家有关海域使用金政策规定，就钦州市钦州港新城区路网工程（三期）项目海域使用金免缴事项批复如下：</p><p style="text-indent: 2em;">一、钦州市钦州港新城区路网工程（三期）项目用海性质为公益性用海，用海方式为透水构筑物中跨海桥梁用海。根据《中华人民共和国海域使用管理法》第三十五条及《财政部 国家海洋局关于印发〈海域使用金减免管理办法〉的通知》（财综〔2006〕24号）第三条、第四条规定，同意钦州市钦州港新城区路网工程（三期）项目用海面积0.0747公顷免缴批复用海期限内的海域使用金。</p><p style="text-indent: 2em;">二、该项目在用海期限内如发生转让、出租海域使用权或者经批准改变用途或用海性质的，海域使用权受让人或海域使用权人应当按照规定重新履行海域使用金免缴申请和报批手续。</p><p style="text-indent: 2em;">特此批复。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅　广西壮族自治区海洋局</p><p style="text-indent: 2em; text-align: right;">2021年5月28日</p></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/29/6c8b0e20-8887-40f0-999e-63cd09b55a2f/" data-id="cl06jhw7u001cror53rtfc63o" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-b39d4e67-3c01-4686-9766-b4bf5b87d3f1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/29/b39d4e67-3c01-4686-9766-b4bf5b87d3f1/" class="article-date">
+  <time datetime="2021-07-29T07:54:27.023Z" itemprop="datePublished">2021-07-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/29/b39d4e67-3c01-4686-9766-b4bf5b87d3f1/">广西壮族自治区财政厅　广西壮族自治区海洋局关于同意防城港市“蓝色海湾”综合整治行动项目临时用海免缴海域使用金的批复</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-06-18<br>tags: <p style="text-indent: 2em; text-align: center;">桂财综〔2021〕27号</p><p style="text-indent: 0em;">防城港市文旅集团有限公司：</p><p style="text-indent: 2em;">来文《关于申请免缴防城港市“蓝色海湾”综合整治行动项目临时用海海域使用金的函》（文旅函〔2021〕66号）收悉。自治区海洋局按规定程序对该项目免缴应缴国库的海域使用金进行初审并出具了意见。经研究，现根据国家有关海域使用金政策规定，就防城港市“蓝色海湾”综合整治行动项目临时用海海域使用金免缴事项批复如下：</p><p style="text-indent: 2em;">一、防城港市“蓝色海湾”综合整治行动项目临时用海的用海性质为公益性用海，用海方式为“其他用海—种植用海”和“开放式用海—其他开放式用海”。根据《中华人民共和国海域使用管理法》第三十五条及《财政部 国家海洋局关于印发〈海域使用金减免管理办法〉的通知》（财综〔2006〕24号）第三条、第四条规定，同意防城港市“蓝色海湾”综合整治行动项目临时用海的用海面积227.5807公顷（其中种植用海面积112.0432公顷，其他开放式用海面积115.5375公顷）免缴批复用海期限内的海域使用金。</p><p style="text-indent: 2em;">二、该项目在用海期限内如发生转让、出租海域使用权或者经批准改变用途或用海性质的，海域使用权受让人或海域使用权人应当按照规定重新履行海域使用金免缴申请和报批手续。</p><p style="text-indent: 2em;">特此批复。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅　广西壮族自治区海洋局</p><p style="text-indent: 2em; text-align: right;">2021年6月10日</p></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/29/b39d4e67-3c01-4686-9766-b4bf5b87d3f1/" data-id="cl06jhw87002dror5c7arbqgs" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-7f16e45c-22ba-4ff2-9eb4-e0862f50485e" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/29/7f16e45c-22ba-4ff2-9eb4-e0862f50485e/" class="article-date">
+  <time datetime="2021-07-29T07:54:26.156Z" itemprop="datePublished">2021-07-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/29/7f16e45c-22ba-4ff2-9eb4-e0862f50485e/">广西壮族自治区财政厅　广西壮族自治区海洋局关于同意北海市向海大道工程（3号桥梁）项目用海免缴海域使用金的批复</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-06-18<br>tags: <p style="text-indent: 2em; text-align: center;">桂财综〔2021〕26号</p><p style="text-indent: 0em;">北海市路港建设投资开发有限公司：</p><p style="text-indent: 2em;">来文《关于申请免缴（减免）北海市向海大道工程（3号桥梁）项目用海海域使用金的申请》收悉。自治区海洋局按规定程序对该项目免缴应缴国库的海域使用金进行初审并出具了意见。经研究，现根据国家有关海域使用金政策规定，就北海市向海大道工程（3号桥梁）项目用海海域使用金免缴事项批复如下：</p><p style="text-indent: 2em;">一、北海市向海大道工程（3号桥梁）项目用海的用海性质为公益性用海，用海方式为跨海桥梁。根据《中华人民共和国海域使用管理法》第三十五条及《财政部 国家海洋局关于印发〈海域使用金减免管理办法〉的通知》（财综〔2006〕24号）第三条、第四条规定，同意北海市向海大道工程（3号桥梁）项目用海面积0.6721公顷免缴批复用海期限内的海域使用金。</p><p style="text-indent: 2em;">二、该项目在用海期限内如发生转让、出租海域使用权或者经批准改变用途或用海性质的，海域使用权受让人或海域使用权人应当按照规定重新履行海域使用金免缴申请和报批手续。</p><p style="text-indent: 2em;">特此批复。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅　广西壮族自治区海洋局</p><p style="text-indent: 2em; text-align: right;">2021年6月10日</p></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/29/7f16e45c-22ba-4ff2-9eb4-e0862f50485e/" data-id="cl06jhw7x001mror5cjaq0n94" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
+  
+    <article id="post-e659a940-e8d4-41a6-88c9-c168f35e8b8e" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/07/29/e659a940-e8d4-41a6-88c9-c168f35e8b8e/" class="article-date">
+  <time datetime="2021-07-29T07:54:25.257Z" itemprop="datePublished">2021-07-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/07/29/e659a940-e8d4-41a6-88c9-c168f35e8b8e/">广西至胜房地产土地资产评估有限公司变更备案公告</a>
+    </h1>
+  
 
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+		<a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+		
+      
+        <p>date: 2021-06-22<br>tags: <p style="text-indent: 2em; text-align: center;">桂资评备190号</p><p style="text-indent: 2em;">广西至胜房地产土地资产评估有限公司变更事项备案及有关材料收悉。根据《中华人民共和国资产评估法》《资产评估行业财政监督管理办法》的有关规定，予以备案。变更备案的相关信息如下：</p><p style="text-indent: 2em;">一、机构名称由广西至胜土地房地产评估有限公司变更为广西至胜房地产土地资产评估有限公司。</p><p style="text-indent: 2em;">二、执行合伙事务的合伙人（法定代表人）变更为黄祖毅。</p><p style="text-indent: 2em;">三、合伙人（股东）变更为黄农飞、沈徐娟、刘志刚、黄祖毅。</p><p style="text-indent: 2em;">相关信息已录入备案信息管理系统，可通过财政部、中国资产评估协会官方网站进行查询。</p><p style="text-indent: 2em;">特此公告。</p><p style="text-indent: 2em;"><br></p><p style="text-indent: 2em; text-align: right;">广西壮族自治区财政厅</p><p style="text-indent: 2em; text-align: right;">2021年6月18日</p></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhangning123798.github.io/2021/07/29/e659a940-e8d4-41a6-88c9-c168f35e8b8e/" data-id="cl06jhw8d002wror57c7ih9nt" class="article-share-link">Share</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
   
 
-  
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/11/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><a class="page-number" href="/page/11/">11</a><span class="page-number current">12</span><a class="page-number" href="/page/13/">13</a><a class="page-number" href="/page/14/">14</a><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" href="/page/13/">Next &amp;raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/07/30/8845b974-133d-4888-8e87-04d9dcc58a1d/">中国加油！！</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/6af1f1b9-7301-441c-893d-703e4a013e42/">知——秋</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/99bf4577-d082-42e4-a687-d21445de9e1b/">耍流氓是很優雅滴</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/fa41827c-898a-4e50-8272-9d347141ee8e/">晓来雾沾衣</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/30/d2e5b4da-9a66-4295-860a-1b5dddd206af/">胖香</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+	  <a target="_blank" href="https://www.amazon.com/promocode/A3SXVASIA0QYEX?ref_=assoc_tag_ph_1524239169854&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=bieguohuo-20&linkId=db3ccf30aeffc9daec6bb70c341343ed">Save 20.0% on select products from Meiloi with promo code 209OLXY2, through 2/28 while supplies last.</a>
+	  <a target="_blank" href="https://www.amazon.com/promocode/ADSF21AT79BW0?ref_=assoc_tag_ph_1524239169806&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=bieguohuo-20&linkId=cc116eaab370bf2cdb96807f84d150af">Save 50.0% on select products from Modern Element Products with promo code 50HQALIU, through 3/4 while supplies last.</a>
+	  <a target="_blank" href="https://www.amazon.com/b/?node=16225006011&amp;pf_rd_r=01J7W7K18S2DCMMP8XZ4&amp;pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&amp;pd_rd_r=3e73a8ea-f631-4a51-af7b-21ea460bc1a0&amp;pd_rd_w=Ys2xQ&amp;pd_rd_wg=DhUAv&amp;ref_=pd_gw_unk&_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3d6573de2d832dc546904f09296c116c&camp=1789&creative=9325">fashion beauty </a>
+	  
+    <div id="footer-info" class="inner">
+      &copy; 2022 bieguohuo<br>
+      Powered by <!--<a href="http://hexo.io/" target="_blank">Hexo</a>!-->
+	  <a target="_blank" href="https://www.amazon.com/b?_encoding=UTF8&tag=bieguohuo-20&linkCode=ur2&linkId=3b9d5ea022ea9e54ce70c4e7b9d65e93&camp=1789&creative=9325&node=37">100 music</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
